@@ -5,9 +5,8 @@ trigger:
 
 # ✅ Use your self-hosted agent instead of Microsoft-hosted Ubuntu
 pool:
-  name: Default  # Or your agent pool name
-  demands:
-    - agent.name -equals abela-k8-dk
+  name: abela-k8-dk  # Or your agent pool name
+  
 
 variables:
   terraformVersion: '1.6.6'
