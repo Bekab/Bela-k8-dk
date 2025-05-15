@@ -19,6 +19,6 @@ variable "app_service_plan_name" {
 variable "app_service_name" {
   description = "The name of the App Service (Web App)"
   type        = string
-  default     = "AS_1"
+  default     = "Abel-app-bek"
 }
 
