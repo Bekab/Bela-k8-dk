@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "The name of the resource group"
   type        = string
-  default = "abelk822"
+  default = "abelk82233"
 }
 
 variable "location" {
@@ -13,5 +13,5 @@ variable "location" {
 variable "container_registry_name" {
   description = "The name of the Azure Container Registry"
   type        = string
-  default     = "cont122"
+  default     = "cont12233"
 }
