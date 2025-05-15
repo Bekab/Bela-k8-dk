@@ -2,7 +2,7 @@
 provider "azurerm" {
   features {}
   alias           = "azresourceprovider"
-    use_cli = true
+  use_msi = true
 }
 
 resource "azurerm_resource_group" "main" {
